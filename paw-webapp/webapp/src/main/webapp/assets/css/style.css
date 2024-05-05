@@ -1,0 +1,64 @@
+.sidebar{
+    background-color: #459F78;
+}
+
+.dropdown-group {
+    width:100%;
+}
+.dropdown-group .form-select{
+    width:100%;
+    background-color: #F2F2F2 !important;
+    color: black;
+    font-size: 1vw;
+}
+.dropdown-group .dropdown-menu {
+    width:100%;
+}
+
+.filterbtn {
+    width:100%;
+    /*background-color: darkgray !important;*/
+}
+
+/* Style the form */
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+.chip-pill {
+    display: inline-block;
+    padding: 0 5px;
+    height: 20px;
+    width: fit-content;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: #459F78;
+    color: white;
+}
+
+.form-search {
+    border-radius: 5px !important;
+}
